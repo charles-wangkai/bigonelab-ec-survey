@@ -1,25 +1,68 @@
 {
+  "requiredText": "",
   "elements": [
+    {
+      "type": "html",
+      "name": "info",
+      "html": "<h3>Please choose a more accurate mapping category for each of the following categories.</h3>"
+    },
     {
       "isRequired": true,
       "type": "radiogroup",
-      "name": "手机数码 ▶ 笔记本电脑",
-      "title": "手机数码 ▶ 笔记本电脑",
+      "name": "1101|手机数码 ▶ 笔记本电脑",
+      "title": "\"手机数码 ▶ 笔记本电脑\"",
       "choices": [
-        { "value": 1, "text": "手机 ▶ 手机通讯 ▶ 手机" },
-        { "value": 2, "text": "电脑、办公 ▶ 电脑整机 ▶ 平板电脑" },
-        { "value": 0, "text": "都差不多" }
+        { "value": "cat_name", "text": "\"电脑、办公 ▶ 电脑整机 ▶ 平板电脑\"" },
+        { "value": "original", "text": "\"手机 ▶ 手机通讯 ▶ 手机\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
       ]
     },
     {
       "isRequired": true,
       "type": "radiogroup",
-      "name": "母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙",
-      "title": "母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙",
+      "name": "162201|服装鞋包 ▶ 女装/女士精品 ▶ 裤子 ▶ 休闲裤",
+      "title": "\"服装鞋包 ▶ 女装/女士精品 ▶ 裤子 ▶ 休闲裤\"",
       "choices": [
-        { "value": 1, "text": "母婴 ▶ 童装 ▶ 裙子" },
-        { "value": 2, "text": "服饰内衣 ▶ 女装 ▶ 连衣裙" },
-        { "value": 0, "text": "都差不多" }
+        { "value": "original", "text": "\"服饰内衣 ▶ 女装 ▶ 休闲裤\"" },
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 男装 ▶ 休闲裤\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50011979|美妆饰品 ▶ 美容护肤/美体/精油 ▶ 面部精华（新） ▶ 液态精华",
+      "title": "\"美妆饰品 ▶ 美容护肤/美体/精油 ▶ 面部精华（新） ▶ 液态精华\"",
+      "choices": [
+        { "value": "original", "text": "\"美妆个护 ▶ 面部护肤 ▶ 面部精华\"" },
+        {
+          "value": "cat_name",
+          "text": "\"美妆个护 ▶ 面部护肤 ▶ 眼霜/眼部精华\""
+        },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50012010|服装鞋包 ▶ 箱包皮具/热销女包/男包 ▶ 女士包袋",
+      "title": "\"服装鞋包 ▶ 箱包皮具/热销女包/男包 ▶ 女士包袋\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳袋/包\"" },
+        { "value": "original", "text": "\"礼品箱包 ▶ 潮流女包 ▶ 单肩包\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
       ]
     }
   ]
