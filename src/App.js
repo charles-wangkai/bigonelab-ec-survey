@@ -1,21 +1,11 @@
 import React, { Component } from 'react';
 import * as Survey from 'survey-react';
+import surveyData from './survey.json';
 import 'survey-react/survey.css';
 import logo from './logo.png';
 import './App.css';
 
 class App extends Component {
-  json = {
-    elements: [
-      {
-        type: 'text',
-        name: 'customerName',
-        title: 'What is your name?',
-        isRequired: true
-      }
-    ]
-  };
-
   onComplete(survey) {
     console.log('Survey results: ' + JSON.stringify(survey.data));
   }
@@ -28,7 +18,7 @@ class App extends Component {
           <h1>eCommerce Category Mappings Comparison</h1>
         </header>
 
-        <Survey.Survey json={this.json} onComplete={this.onComplete} />
+        <Survey.Survey json={surveyData} onComplete={this.onComplete} />
       </div>
     );
   }

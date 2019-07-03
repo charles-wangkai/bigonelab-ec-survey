@@ -1,0 +1,26 @@
+{
+  "elements": [
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "手机数码 ▶ 笔记本电脑",
+      "title": "手机数码 ▶ 笔记本电脑",
+      "choices": [
+        { "value": 1, "text": "手机 ▶ 手机通讯 ▶ 手机" },
+        { "value": 2, "text": "电脑、办公 ▶ 电脑整机 ▶ 平板电脑" },
+        { "value": 0, "text": "都差不多" }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙",
+      "title": "母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙",
+      "choices": [
+        { "value": 1, "text": "母婴 ▶ 童装 ▶ 裙子" },
+        { "value": 2, "text": "服饰内衣 ▶ 女装 ▶ 连衣裙" },
+        { "value": 0, "text": "都差不多" }
+      ]
+    }
+  ]
+}
