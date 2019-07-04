@@ -39,7 +39,7 @@ if __name__ == '__main__':
     elements = [{
         'type': 'html',
         'name': 'info',
-        'html': '<h3>Please choose a more accurate mapping category for each of the following categories.</h3>'
+        'html': f'<h2>Methods Comparison: "{method1}" vs "{method2}"</h2>'
     }]
     for api_id in api_id_map:
         method_to_jd_cat_name = api_id_map[api_id]['method_to_jd_cat_name']
@@ -61,6 +61,10 @@ if __name__ == '__main__':
                     break
 
     surveyData = {
+        'customData': {
+            'method1': method1,
+            'method2': method2
+        },
         'requiredText': '',
         'elements': elements
     }
