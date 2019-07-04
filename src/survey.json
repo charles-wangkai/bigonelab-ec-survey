@@ -12,8 +12,8 @@
       "name": "1101|手机数码 ▶ 笔记本电脑",
       "title": "\"手机数码 ▶ 笔记本电脑\"",
       "choices": [
-        { "value": "cat_name", "text": "\"电脑、办公 ▶ 电脑整机 ▶ 平板电脑\"" },
         { "value": "original", "text": "\"手机 ▶ 手机通讯 ▶ 手机\"" },
+        { "value": "cat_name", "text": "\"电脑、办公 ▶ 电脑整机 ▶ 平板电脑\"" },
         {
           "value": 0,
           "text": "No one above is obviously better than the other."
@@ -26,8 +26,8 @@
       "name": "162201|服装鞋包 ▶ 女装/女士精品 ▶ 裤子 ▶ 休闲裤",
       "title": "\"服装鞋包 ▶ 女装/女士精品 ▶ 裤子 ▶ 休闲裤\"",
       "choices": [
-        { "value": "original", "text": "\"服饰内衣 ▶ 女装 ▶ 休闲裤\"" },
         { "value": "cat_name", "text": "\"服饰内衣 ▶ 男装 ▶ 休闲裤\"" },
+        { "value": "original", "text": "\"服饰内衣 ▶ 女装 ▶ 休闲裤\"" },
         {
           "value": 0,
           "text": "No one above is obviously better than the other."
