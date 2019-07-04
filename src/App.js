@@ -30,9 +30,18 @@ class App extends Component {
   };
 
   onComplete = survey => {
-    console.log('Survey results: ' + JSON.stringify(survey.data));
-
     this.setState({ score: this.computeScore(survey.data) });
+
+    let questions = survey.getAllQuestions();
+    for (let i = 0; i < questions.length; i++) {
+      if ('choices' in questions[i]) {
+        for (let j = 0; j < 2; j++) {
+          questions[i].choices[j].text += ` (by method "${
+            questions[i].choices[j].value
+          }")`;
+        }
+      }
+    }
 
     survey.clear(false);
     survey.mode = 'display';
