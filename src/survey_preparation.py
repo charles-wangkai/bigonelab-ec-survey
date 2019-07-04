@@ -57,9 +57,6 @@ if __name__ == '__main__':
                     'choices': build_choices(method1, jd_cat_name1, method2, jd_cat_name2)
                 })
 
-                if len(elements) == 5:
-                    break
-
     surveyData = {
         'customData': {
             'method1': method1,

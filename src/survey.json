@@ -58,8 +58,350 @@
       "name": "50012010|服装鞋包 ▶ 箱包皮具/热销女包/男包 ▶ 女士包袋",
       "title": "\"服装鞋包 ▶ 箱包皮具/热销女包/男包 ▶ 女士包袋\"",
       "choices": [
-        { "value": "cat_name", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳袋/包\"" },
         { "value": "original", "text": "\"礼品箱包 ▶ 潮流女包 ▶ 单肩包\"" },
+        { "value": "cat_name", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳袋/包\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50003881|家用电器 ▶ 大家电 ▶ 冰箱 ▶ 厨房冰箱",
+      "title": "\"家用电器 ▶ 大家电 ▶ 冰箱 ▶ 厨房冰箱\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家用电器 ▶ 大家电 ▶ 冷柜/冰吧\"" },
+        { "value": "original", "text": "\"家用电器 ▶ 大家电 ▶ 冰箱\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "121408039|美妆饰品 ▶ 珠宝/钻石/翡翠/黄金 ▶ 翡翠（新） ▶ 手饰",
+      "title": "\"美妆饰品 ▶ 珠宝/钻石/翡翠/黄金 ▶ 翡翠（新） ▶ 手饰\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"珠宝首饰 ▶ 翡翠玉石 ▶ 手镯/手串\"" },
+        { "value": "original", "text": "\"珠宝首饰 ▶ 翡翠玉石 ▶ 项链/吊坠\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "162205|服装鞋包 ▶ 女装/女士精品 ▶ 牛仔裤",
+      "title": "\"服装鞋包 ▶ 女装/女士精品 ▶ 牛仔裤\"",
+      "choices": [
+        { "value": "original", "text": "\"服饰内衣 ▶ 女装 ▶ 牛仔裤\"" },
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 男装 ▶ 牛仔裤\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50003854|百货食品 ▶ 节庆用品/礼品 ▶ 创意礼品 ▶ 其他礼品/节庆用品",
+      "title": "\"百货食品 ▶ 节庆用品/礼品 ▶ 创意礼品 ▶ 其他礼品/节庆用品\"",
+      "choices": [
+        { "value": "original", "text": "\"礼品箱包 ▶ 礼品 ▶ 创意礼品\"" },
+        { "value": "cat_name", "text": "\"礼品箱包 ▶ 礼品 ▶ 婚庆节庆\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50008246|家居建材 ▶ 床上用品 ▶ 凉席/竹席/藤席/草席/牛皮席",
+      "title": "\"家居建材 ▶ 床上用品 ▶ 凉席/竹席/藤席/草席/牛皮席\"",
+      "choices": [
+        { "value": "original", "text": "\"家居家装 ▶ 家纺 ▶ 凉席\"" },
+        { "value": "cat_name", "text": "\"家纺 ▶ 床上用品 ▶ 牛皮席\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50005050|家用电器 ▶ 影音电器 ▶ 蓝牙耳机",
+      "title": "\"家用电器 ▶ 影音电器 ▶ 蓝牙耳机\"",
+      "choices": [
+        { "value": "original", "text": "\"手机 ▶ 手机配件 ▶ 蓝牙耳机\"" },
+        { "value": "cat_name", "text": "\"数码 ▶ 影音娱乐 ▶ 耳机/耳麦\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50012043|运动户外 ▶ 运动鞋new ▶ 板鞋/休闲鞋",
+      "title": "\"运动户外 ▶ 运动鞋new ▶ 板鞋/休闲鞋\"",
+      "choices": [
+        { "value": "original", "text": "\"运动户外 ▶ 户外鞋服 ▶ 休闲鞋\"" },
+        { "value": "cat_name", "text": "\"运动户外 ▶ 运动鞋包 ▶ 板鞋\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50009154|生活服务 ▶ 个性定制/设计服务/DIY ▶ 包装用品定制 ▶ 包装纸箱",
+      "title": "\"生活服务 ▶ 个性定制/设计服务/DIY ▶ 包装用品定制 ▶ 包装纸箱\"",
+      "choices": [
+        { "value": "original", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳柜\"" },
+        { "value": "cat_name", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳箱/盒\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50015112|生活服务 ▶ 个性定制/设计服务/DIY ▶ 服饰箱包定制 ▶ 服装定制 ▶ T恤印制",
+      "title": "\"生活服务 ▶ 个性定制/设计服务/DIY ▶ 服饰箱包定制 ▶ 服装定制 ▶ T恤印制\"",
+      "choices": [
+        { "value": "original", "text": "\"礼品箱包 ▶ 礼品 ▶ 礼品定制\"" },
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 男装 ▶ T恤\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50023652|母婴用品 ▶ 玩具/童车/益智/积木/模型 ▶ 串珠/拼图/配对/拆装/敲打玩具 ▶ 建构/拼插积木",
+      "title": "\"母婴用品 ▶ 玩具/童车/益智/积木/模型 ▶ 串珠/拼图/配对/拆装/敲打玩具 ▶ 建构/拼插积木\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"玩具乐器 ▶ 积木拼插 ▶ 磁力片/棒\"" },
+        { "value": "original", "text": "\"玩具乐器 ▶ 积木拼插 ▶ 积木\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50010540|母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 套装",
+      "title": "\"母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 套装\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"美妆个护 ▶ 面部护肤 ▶ 套装/礼盒\"" },
+        { "value": "original", "text": "\"母婴 ▶ 童装 ▶ 套装\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50013618|母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裤子",
+      "title": "\"母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裤子\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 男装 ▶ 休闲裤\"" },
+        { "value": "original", "text": "\"母婴 ▶ 童装 ▶ 裤子\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50006950|家居建材 ▶ 五金/工具 ▶ 仪器仪表 ▶ 其它仪表仪器",
+      "title": "\"家居建材 ▶ 五金/工具 ▶ 仪器仪表 ▶ 其它仪表仪器\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家装建材 ▶ 五金工具 ▶ 测量工具\"" },
+        { "value": "original", "text": "\"工业品 ▶ 仪器仪表 ▶ 其它仪表\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50009190|其他 ▶ 包装 ▶ 礼品包装 ▶ 礼品袋/塑料袋",
+      "title": "\"其他 ▶ 包装 ▶ 礼品包装 ▶ 礼品袋/塑料袋\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家居家装 ▶ 收纳用品 ▶ 收纳袋/包\"" },
+        { "value": "original", "text": "\"工业品 ▶ 标签包装 ▶ 包装耗材\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50018323|手机数码 ▶ 品牌台机/品牌一体机/服务器 ▶ 家用一体机",
+      "title": "\"手机数码 ▶ 品牌台机/品牌一体机/服务器 ▶ 家用一体机\"",
+      "choices": [
+        { "value": "original", "text": "\"电脑、办公 ▶ 电脑整机 ▶ 笔记本\"" },
+        { "value": "cat_name", "text": "\"电脑、办公 ▶ 电脑整机 ▶ 一体机\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50010535|百货食品 ▶ 零食/坚果/特产 ▶ 饼干/膨化 ▶ 膨化食品",
+      "title": "\"百货食品 ▶ 零食/坚果/特产 ▶ 饼干/膨化 ▶ 膨化食品\"",
+      "choices": [
+        { "value": "original", "text": "\"食品饮料 ▶ 休闲食品 ▶ 膨化食品\"" },
+        { "value": "cat_name", "text": "\"食品饮料 ▶ 休闲食品 ▶ 休闲零食\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50010817|美妆饰品 ▶ 彩妆/香水/美妆工具 ▶ 美容工具 ▶ 化妆/美容工具",
+      "title": "\"美妆饰品 ▶ 彩妆/香水/美妆工具 ▶ 美容工具 ▶ 化妆/美容工具\"",
+      "choices": [
+        { "value": "original", "text": "\"美妆个护 ▶ 香水彩妆 ▶ 美妆工具\"" },
+        {
+          "value": "cat_name",
+          "text": "\"美妆个护 ▶ 美妆工具 ▶ 其他美妆工具\""
+        },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "123216004|服装鞋包 ▶ 女装/女士精品 ▶ 套装/学生校服/工作制服 ▶ 时尚套装",
+      "title": "\"服装鞋包 ▶ 女装/女士精品 ▶ 套装/学生校服/工作制服 ▶ 时尚套装\"",
+      "choices": [
+        { "value": "original", "text": "\"服饰内衣 ▶ 女装 ▶ 设计师/潮牌\"" },
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 女装 ▶ 连衣裙\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50012346|母婴用品 ▶ 童鞋/婴儿鞋/亲子鞋 ▶ 凉鞋",
+      "title": "\"母婴用品 ▶ 童鞋/婴儿鞋/亲子鞋 ▶ 凉鞋\"",
+      "choices": [
+        { "value": "original", "text": "\"母婴 ▶ 童鞋 ▶ 凉鞋\"" },
+        { "value": "cat_name", "text": "\"鞋靴 ▶ 流行男鞋 ▶ 凉鞋/沙滩鞋\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50000583|家居建材 ▶ 居家布艺 ▶ 地垫",
+      "title": "\"家居建材 ▶ 居家布艺 ▶ 地垫\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家纺 ▶ 居家布艺 ▶ 地垫\"" },
+        { "value": "original", "text": "\"家居家装 ▶ 家纺 ▶ 地垫\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50000582|家居建材 ▶ 居家布艺 ▶ 地毯",
+      "title": "\"家居建材 ▶ 居家布艺 ▶ 地毯\"",
+      "choices": [
+        { "value": "original", "text": "\"家居家装 ▶ 家纺 ▶ 地毯\"" },
+        { "value": "cat_name", "text": "\"家纺 ▶ 居家布艺 ▶ 地毯\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "126052001|家居建材 ▶ 床上用品 ▶ 被子 ▶ 化纤被",
+      "title": "\"家居建材 ▶ 床上用品 ▶ 被子 ▶ 化纤被\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"家纺 ▶ 居家布艺 ▶ 抱枕靠垫\"" },
+        { "value": "original", "text": "\"家纺 ▶ 床上用品 ▶ 四件套\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "50005002|其他 ▶ 美容美体仪器 ▶ 面部美容工具 ▶ 电子美容仪",
+      "title": "\"其他 ▶ 美容美体仪器 ▶ 面部美容工具 ▶ 电子美容仪\"",
+      "choices": [
+        {
+          "value": "cat_name",
+          "text": "\"美妆个护 ▶ 美妆工具 ▶ 其他美妆工具\""
+        },
+        { "value": "original", "text": "\"家用电器 ▶ 个护健康 ▶ 美容器\"" },
+        {
+          "value": 0,
+          "text": "No one above is obviously better than the other."
+        }
+      ]
+    },
+    {
+      "isRequired": true,
+      "type": "radiogroup",
+      "name": "121452038|母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙",
+      "title": "\"母婴用品 ▶ 童装/婴儿装/亲子装 ▶ 裙子(新) ▶ 连衣裙\"",
+      "choices": [
+        { "value": "cat_name", "text": "\"服饰内衣 ▶ 女装 ▶ 连衣裙\"" },
+        { "value": "original", "text": "\"母婴 ▶ 童装 ▶ 裙子\"" },
         {
           "value": 0,
           "text": "No one above is obviously better than the other."
