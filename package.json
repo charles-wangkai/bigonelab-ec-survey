@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "http-server": "^0.11.1",
-    "lodash": "^4.17.14",
+    "http-server": "^0.12.1",
+    "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "~3.1.1",
-    "serialize-javascript": "^2.1.1",
-    "survey-react": "^1.0.96"
+    "minimist": "^1.2.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0",
+    "serialize-javascript": "^3.0.0",
+    "survey-react": "^1.5.15"
   },
   "scripts": {
     "start": "react-scripts start",
